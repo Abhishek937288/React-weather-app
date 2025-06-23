@@ -5,13 +5,13 @@ import "./app.css";
 
 export const Weather = () => {
   const [data, setData] = useState({
-     city : "Banglore",
-        temp: 24,
-        temMin:26,
-        temMax: 32,
-        humidity: 47,
-        feelsLike: "cloudy",
-        weather: "haze",
+     city : "",
+        temp: "",
+        temMin:"",
+        temMax: "",
+        humidity: "",
+        feelsLike: "",
+        weather: "",
   });
   const [isError, setIsError] = useState(false);
 
